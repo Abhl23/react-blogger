@@ -1,0 +1,58 @@
+@import "variables";
+
+.createBlog {
+  width: 70%;
+  padding: 0 1rem;
+//   border: 1px solid black;
+  margin: 2rem auto;
+
+  h2 {
+    color: $blue;
+    text-align: center;
+  }
+
+  .formField {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+
+    label {
+      margin-bottom: 9px;
+      font-weight: 500;
+    }
+
+    input {
+      height: 37px;
+      border: 1px solid #e1e1e1;
+      border-radius: 3px;
+      font-size: 18px;
+      padding-left: 10px;
+    }
+
+    textarea {
+      border: 1px solid #e1e1e1;
+      height: 400px;
+      font-size: 18px;
+      padding-left: 10px;
+      border-radius: 3px;
+      padding-top: 5px;
+    }
+
+    .imageLabel{
+        margin: 5px 0;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+
+        img{
+            width: 2.5rem;
+            height: 2.5rem;
+        }
+
+        span{
+            margin-left: 10px;
+            color: black;
+        }
+    }
+  }
+}
